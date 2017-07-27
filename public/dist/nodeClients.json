@@ -1,0 +1,18 @@
+{
+    "Geth": {
+        "basicId": 1, 
+        "advancedId": 2
+    },
+    "Parity": {
+        "basicId": 3,
+        "advancedId": 4
+    },
+    "TestRPC": {
+        "basicId": 5,
+        "advancedId": 6
+    },
+    "Nuco": {
+        "basicId": 7,
+        "advancedId": 8
+    }
+}

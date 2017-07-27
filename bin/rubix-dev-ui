@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+var rubix = require('rubix-sdk');
+const exec = require('child_process').execSync;
+
+if (process.argv.length > 2) {
+	if (process.argv[2] === "--server") {
+		rubix.server.listen();
+	}
+}
+
+
+exec('cd ' + __dirname.replace('bin', '') + ' && npm run ui');
